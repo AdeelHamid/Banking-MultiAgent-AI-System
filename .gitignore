@@ -205,3 +205,37 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+data/
+
+
+# Environment variables (CRITICAL - protects your API keys!)
+.env
+.env.*
+!.env.example
+
+# Python cache files (generated automatically, not needed in Git)
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments (too large for Git)
+venv/
+env/
+.conda/
+
+# IDE settings (personal preferences, not project code)
+.vscode/
+.idea/
+
+# Data files (too large for Git)
+data/
+!data/.gitkeep
+
+# Logs (generated at runtime)
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
